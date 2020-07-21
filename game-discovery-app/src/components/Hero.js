@@ -21,8 +21,8 @@ export default class Hero extends Component {
         <h2>Game Discovery</h2>
         <p>Take a risk on something new!</p>
         <form onSubmit={this.handleSubmit}>
-          <input onChange={this.handleChange} type="text" name="title" placeholder="Game Name" />
-          <input type="submit" value="Search" />
+          <input className="search-box" onChange={this.handleChange} type="text" name="title" placeholder="Game Name" />
+          <input className="search-submit" type="submit" value="Search" />
         </form>
       </div>
     )
