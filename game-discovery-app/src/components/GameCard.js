@@ -19,8 +19,10 @@ export default class GameCard extends Component {
         <div onClick={this.handleClick} className="game-card">
           <img src={game.images.small} alt={game.name} />
           <h2>{game.name}</h2>
-          <p>Players: {game.min_players}-{game.max_players}</p>
-          <p>Ages {game.min_age} and up.</p>
+          <div className="ages-players">
+            <p>Players: {game.min_players}-{game.max_players}</p>
+            <p>Ages {game.min_age} and up.</p>
+          </div>
         </div>
         {this.state.modal ? <Modal game={game} handleClick={this.handleClick} /> : null}
       </>

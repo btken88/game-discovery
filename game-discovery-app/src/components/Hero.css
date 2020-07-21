@@ -1,43 +1,43 @@
 .hero {
-    background-image: linear-gradient(hsla(0, 100%, 50%, 40%), hsla(39, 100%, 50%, 40%), hsla(60, 100%, 50%, 40%), hsl(120, 100%, 25%, 40%), hsla(240, 100%, 50%, 40%)), url("../board_game_hero.jpeg"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 10px 10px 8px #888888;
+  background-image: linear-gradient(hsla(0, 100%, 50%, 40%), hsla(39, 100%, 50%, 40%), hsla(60, 100%, 50%, 40%), hsl(120, 100%, 25%, 40%), hsla(240, 100%, 50%, 40%)), url("../board_game_hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px #888888;
 }
 
 .hero h2 {
-    font-family: "Press Start 2P";
-    font-size: 40px;
-    color: white;
-    text-shadow: 2px 2px black;
-    padding: 1em;
-    letter-spacing: 5px;
-  }
+  font-family: "Press Start 2P";
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 1em;
+  letter-spacing: 5px;
+}
 
 .hero p {
-    font-family: "Press Start 2P";
-    color: white;
-    text-shadow: 2px 2px black;
-    padding: 1em;
-    padding-bottom: 2.5em;
-    text-decoration: underline overline dotted blue;
-  }
+  font-family: "Press Start 2P";
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 1em;
+  padding-bottom: 2.5em;
+  text-decoration: underline overline dotted blue;
+}
 
-.hero input{
-    border-radius: 5px;
-    font-family: Kanit;
-    font-size: 15px;
-    padding: 10px;
-    margin-right: 20px;
-    background-color: white;
-    border-style: double;
-    border-color: #032B43;
-    color: blue;
+.hero input {
+  border-radius: 5px;
+  font-family: Kanit;
+  font-size: 15px;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: white;
+  border-style: double;
+  border-color: #032B43;
+  color: blue;
 }
 
 .hero .search-submit:hover {
