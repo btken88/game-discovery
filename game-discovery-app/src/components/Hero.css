@@ -1,0 +1,32 @@
+.hero {
+    background-image: linear-gradient(hsla(0, 100%, 50%, 40%), hsla(39, 100%, 50%, 40%), hsla(60, 100%, 50%, 40%), hsl(120, 100%, 25%, 40%), hsla(240, 100%, 50%, 40%)), url("../board_game_hero.jpeg"); 
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 1em;
+  }
+
+.hero p {
+    font-family: "Press Start 2P";
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 1em;
+    padding-bottom: 2.5em;
+  }
+
+.hero input{
+    border-radius: 5px;
+    font-family: Kanit;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
