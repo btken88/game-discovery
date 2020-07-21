@@ -1,4 +1,5 @@
 .hero {
+  z-index: -1;
   background-image: linear-gradient(hsla(0, 100%, 50%, 40%), hsla(39, 100%, 50%, 40%), hsla(60, 100%, 50%, 40%), hsl(120, 100%, 25%, 40%), hsla(240, 100%, 50%, 40%)), url("../board_game_hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,6 +39,10 @@
   border-style: double;
   border-color: #032B43;
   color: blue;
+}
+
+.hero input[type="submit"]:hover {
+  cursor: pointer;
 }
 
 .hero .search-submit:hover {

@@ -14,7 +14,9 @@ export default class HomePage extends Component {
   }
 
   handleSearch = title => {
-    console.log(title)
+    fetch(`http://api.boardgameatlas.com/api/search?name=${title}&client_id=${process.env.REACT_APP_API_KEY}`)
+      .then(response => response.json())
+      .then(data => this.setState({ games: data.games }))
   }
 
   render() {
