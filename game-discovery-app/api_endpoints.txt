@@ -1,0 +1,3 @@
+http://api.boardgameatlas.com/api/search?fuzzy_match=${searchTerm}&client_id=${process.env.REACT_APP_API_KEY}
+
+https://www.boardgameatlas.com/api/search?order_by=popularity&ascending=false&pretty=true&client_id=${process.env.REACT_APP_API_KEY}
