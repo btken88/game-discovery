@@ -147,13 +147,15 @@ body{
 
 header {
   padding: 1.5em;
+  background-color: #FFBA08;
+  color: white;
+  box-shadow: 10px 10px 8px #888888;
+  
 }
 
 h1 {
   font-family: "Press Start 2P";
   font-size: 20px;
-}
-
-input {
-  font-family: sans-serif;
+  text-shadow: 2px 0px 2px #032B43;
+  letter-spacing: 5px;
 }
